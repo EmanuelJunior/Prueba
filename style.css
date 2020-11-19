@@ -5,7 +5,7 @@
 }
 
 body{
-    background: repeating-linear-gradient(to right, white, whitesmoke 100px);
+    background: repeating-linear-gradient(to right, #aaa, #bbb 100px);
 }
 
 b::selection{
