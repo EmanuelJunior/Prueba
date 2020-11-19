@@ -42,11 +42,11 @@ b::selection{
     color: #999;
     -webkit-text-stroke: .4px #111;
     font-size: 24px;
-    transition: all 3s;
+    transition: all 2s;
 }
 
 .divs:hover{
-    animation: BorderColor 10s linear infinite;
+    animation: BorderColor 5s linear infinite;
 }
 
 @keyframes BorderColor{
@@ -79,7 +79,7 @@ b::selection{
 
 .divs:hover > b{
     transform: rotate(360deg);
-    animation: Colores 10s linear infinite;
+    animation: Colores 5s linear infinite;
 }
 
 @keyframes Colores{
