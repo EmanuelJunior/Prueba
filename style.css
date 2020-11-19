@@ -4,4 +4,6 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
-
+body{
+    background: repeating-linear-gradient(to right, white, whitesmoke 100px);
+}
