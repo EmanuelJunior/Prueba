@@ -38,7 +38,7 @@ b::selection{
     text-align: center;
     line-height: 220px;
     display: block;
-    color: #555;
+    color: #999;
     -webkit-text-stroke: .4px #111;
     font-size: 24px;
 }
@@ -54,6 +54,7 @@ b::selection{
     line-height: 160px;
     display: block;
     font-size: 14px;
+    color: #444;
 }
 
 .divs:nth-child(2){
@@ -67,6 +68,7 @@ b::selection{
     line-height: 190px;
     display: block;
     font-size: 18px;
+    color: #777;
 }
 
 .divs:nth-child(4){
@@ -80,6 +82,7 @@ b::selection{
     line-height: 190px;
     display: block;
     font-size: 18px;
+    color: #777;
 }
 
 .divs:last-child{
@@ -93,4 +96,5 @@ b::selection{
     line-height: 160px;
     display: block;
     font-size: 14px;
+    color: #444;
 }
