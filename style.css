@@ -41,6 +41,11 @@ b::selection{
     color: #999;
     -webkit-text-stroke: .4px #111;
     font-size: 24px;
+    transition: all 3s;
+}
+
+.divs:hover > b{
+    transform: rotate(360deg);
 }
 
 .divs:first-child{
