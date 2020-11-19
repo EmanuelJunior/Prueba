@@ -44,8 +44,51 @@ b::selection{
     transition: all 3s;
 }
 
+.divs:hover{
+    animation: BorderColor 10s linear infinite;
+}
+
+@keyframes BorderColor{
+    0%{
+        border: 1px solid orange;
+    }20%{
+        border: 1px solid orangered;
+    }40%{
+        border: 1px solid teal;
+    }60%{
+        border: 1px solid yellowgreen;
+    }80%{
+        border: 1px solid violet;
+    }100%{
+        border: 1px solid orange;
+    }
+}
+
 .divs:hover > b{
     transform: rotate(360deg);
+    animation: Colores 10s linear infinite;
+}
+
+@keyframes Colores{
+    0%{
+        color: orange;
+        -webkit-text-stroke: .5px orange;
+    }20%{
+        color: orangered;
+        -webkit-text-stroke: .5px orangered;
+    }40%{
+        color: teal;
+        -webkit-text-stroke: .5px teal;
+    }60%{
+        Color: yellowgreen;
+        -webkit-text-stroke: .5px yellowgreen;
+    }80%{
+        color: violet;
+        -webkit-text-stroke: .5px violet;
+    }100%{
+        color: orange;
+        -webkit-text-stroke: .5px orange;
+    }
 }
 
 .divs:first-child{
