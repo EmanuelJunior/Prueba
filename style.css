@@ -52,27 +52,27 @@ b::selection{
 @keyframes BorderColor{
     0%{
         border: 2px solid orange;
-        box-shadow: 0 0 20px inset orange, 0 0 20px inset orange;
+        box-shadow: 0 0 20px inset orange, 0 0 20px inset orange, 0 0 10px #666,  0 0 10px #999, 0 0 15px #777, 0 0 20px inset #444, 0 0 20px #333;
         background: rgb(224, 177, 89);
     }20%{
         border: 2px solid orangered;
-        box-shadow: 0 0 20px inset orangered, 0 0 20px inset orangered;
+        box-shadow: 0 0 20px inset orangered, 0 0 20px inset orangered, 0 0 5px #666,  0 0 10px #999, 0 0 15px #777, 0 0 20px inset #444, 0 0 20px #333;
         background: rgb(221, 113, 74);
     }40%{
         border: 2px solid teal;
-        box-shadow: 0 0 20px inset teal, 0 0 20px inset teal;
+        box-shadow: 0 0 20px inset teal, 0 0 20px inset teal, 0 0 5px #666,  0 0 10px #999, 0 0 15px #777, 0 0 20px inset #444, 0 0 20px #333;
         background: rgb(74, 187, 187);
     }60%{
         border: 2px solid yellowgreen;
-        box-shadow: 0 0 20px inset , 0 0 20px inset yellowgreen;
+        box-shadow: 0 0 20px inset , 0 0 20px inset yellowgreen, 0 0 5px #666,  0 0 10px #999, 0 0 15px #777, 0 0 20px inset #444, 0 0 20px #333;
         background: rgb(187, 223, 116);
     }80%{
         border: 2px solid violet;
-        box-shadow: 0 0 20px inset violet, 0 0 20px inset violet;
+        box-shadow: 0 0 20px inset violet, 0 0 20px inset violet, 0 0 5px #666,  0 0 10px #999, 0 0 15px #777, 0 0 20px inset #444, 0 0 20px #333;
         background: rgb(224, 157, 224);
     }100%{
         border: 2px solid orange;
-        box-shadow: 0 0 20px inset orange, 0 0 20px inset orange;
+        box-shadow: 0 0 20px inset orange, 0 0 20px inset orange, 0 0 5px #666,  0 0 10px #999, 0 0 15px #777, 0 0 20px inset #444, 0 0 20px #333;
         background: rgb(224, 177, 89);
     }
 }
